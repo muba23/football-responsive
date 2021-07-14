@@ -115,3 +115,18 @@ body{
 .highlight .button{
     margin-left: 0;
 }
+
+/* -----------------footer -------------- */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons .fa-instagram .fa-facebook-square .fa-twitter .fa-youtube{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 42px;
+    height: 42px;
+}

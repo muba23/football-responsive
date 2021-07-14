@@ -150,7 +150,7 @@ body{
     color: whitesmoke;
     text-decoration: none;
     background-color: black;
-    padding: 20px;
+    padding: 15px;
 }
 .right{
     padding: 20px;
@@ -161,6 +161,7 @@ body{
     display: inline-block;
     margin-left: 700px;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 .pagination a{
     color: black;
@@ -183,4 +184,18 @@ body{
     flex-direction: row;
     width: 42px;
     height: 42px;
+}
+
+/*----------- media queries----------------  */
+/* ---------------------for mobile devices -------------*/
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .players .navbar .highlight .new{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
 }
